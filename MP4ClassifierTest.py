@@ -19,7 +19,7 @@ def draw_text(image, text):
                 thickness,
                 lineType)
 
-video_capture = cv2.VideoCapture('ValidationDataSetMP4/video of currency.mp4') # We turn the webcam on.
+video_capture = cv2.VideoCapture('ValidationDataSetMP4/nz 20 dollar.mp4') # We turn the webcam on.
 
 while True:
     _, frame = video_capture.read()
